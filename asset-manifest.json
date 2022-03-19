@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/markdown-learning-editor/static/css/main.6cf6854a.css",
+    "main.js": "/markdown-learning-editor/static/js/main.ff713536.js",
+    "index.html": "/markdown-learning-editor/index.html",
+    "main.6cf6854a.css.map": "/markdown-learning-editor/static/css/main.6cf6854a.css.map",
+    "main.ff713536.js.map": "/markdown-learning-editor/static/js/main.ff713536.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cf6854a.css",
+    "static/js/main.ff713536.js"
+  ]
+}

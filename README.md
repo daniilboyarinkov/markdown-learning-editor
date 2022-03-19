@@ -5,6 +5,10 @@ And probably one of my pet project.
 
 ---
 
+# **[ССЫЛКА НА ПРОЕКТ](https://daniilboyarinkov.github.io/markdown-learning-editor/)**
+
+---
+
 Version 1.1.0 notes:
 
 Теперь доступно на телефонах.

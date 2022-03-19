@@ -1,0 +1,128 @@
+.root {
+  width: 100%;
+}
+
+.root > h1 {
+  font-weight: bold;
+  color: white;
+  padding: 2rem;
+  background-color: #1e1e20;
+  text-align: center;
+  margin: 1rem auto;
+  width: 15%;
+  border: rgb(29, 29, 29) 0.2rem solid;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem black;
+  text-shadow: 0 0 1rem white;
+  user-select: none;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .markdownContainer {
+  width: 80%;
+  display: flex;
+}
+
+.App .markdownContainer a {
+  color: rgb(155, 155, 255);
+  font-weight: bold;
+}
+
+.App .markdownContainer blockquote {
+  color: #003b46;
+  background-color: #c4dfe6;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.App .markdownContainer img {
+  width: auto;
+  max-width: 100%;
+}
+
+.App .markdownContainer h1,
+.App .markdownContainer h2,
+.App .markdownContainer h3,
+.App .markdownContainer h4,
+.App .markdownContainer h5,
+.App .markdownContainer h6 {
+  color: #66a5ad;
+}
+
+.App .markdownContainer code {
+  color: #003b46;
+  background-color: #c4dfe6;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-left: #66a5ad 1rem solid;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.App .markdownContainer textarea {
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.App .markdownContainer .output {
+  background-color: #003b46;
+  color: white;
+}
+
+.App .markdownContainer .output,
+.App .markdownContainer textarea {
+  width: 100%;
+  max-width: 50%;
+  height: auto;
+  min-height: 80vh;
+  padding: 1.5rem;
+  border: #66a5ad 0.1rem solid;
+  border-radius: 0.5rem;
+}
+
+.MarkDownTip {
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 80%;
+  position: relative;
+  background-color: #1e1e20;
+  color: #ffffff;
+  border: #ffffff 0.1rem solid;
+  border-radius: 0.5rem;
+}
+
+.MarkDownTip a {
+  color: #bbc3c6;
+}
+
+.MarkDownTip blockquote {
+  background-color: #bbc3c6;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  color: #1e1e20;
+}
+
+.MarkDownTip h2 {
+  color: #bbc3c6;
+}
+
+.MarkDownTip code {
+  background-color: #bbc3c6;
+  color: #1e1e20;
+}

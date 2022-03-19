@@ -1,15 +1,19 @@
 .root {
   width: 100%;
+  text-align: center;
 }
 
 .root > h1 {
+  display: inline-block;
   font-weight: bold;
+  font-size: auto;
   color: white;
   padding: 2rem;
   background-color: #1e1e20;
   text-align: center;
-  margin: 1rem auto;
-  width: 15%;
+  margin: 2rem auto;
+  min-width: 15%;
+  width: auto;
   border: rgb(29, 29, 29) 0.2rem solid;
   border-radius: 2rem;
   box-shadow: 0 0 2rem black;
@@ -28,7 +32,10 @@
 
 .App .markdownContainer {
   width: 80%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
 }
 
 .App .markdownContainer a {
@@ -72,7 +79,6 @@
 
 .App .markdownContainer textarea {
   font-size: 16px;
-  width: 100%;
   resize: none;
   border: none;
   outline: none;
@@ -81,12 +87,11 @@
 .App .markdownContainer .output {
   background-color: #003b46;
   color: white;
+  z-index: -1;
 }
 
 .App .markdownContainer .output,
 .App .markdownContainer textarea {
-  width: 100%;
-  max-width: 50%;
   height: auto;
   min-height: 80vh;
   padding: 1.5rem;
@@ -125,4 +130,9 @@
 .MarkDownTip code {
   background-color: #bbc3c6;
   color: #1e1e20;
+}
+
+.MarkDownTip img {
+  width: auto;
+  max-width: 100%;
 }
